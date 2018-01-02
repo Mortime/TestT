@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    UILabel *lable1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 50, 17)];
+    lable1.text = @"test";
+    [self.view addSubview:lable1];
 }
 
 
