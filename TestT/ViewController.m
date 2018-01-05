@@ -27,6 +27,9 @@
     
     UILabel *label3 = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 40, 50)];
     [self.view addSubview:label3];
+    
+    UILabel *label4 = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 40, 50)];
+    [self.view addSubview:label4];
 }
 
 
