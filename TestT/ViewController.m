@@ -20,6 +20,10 @@
     UILabel *lable1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 50, 17)];
     lable1.text = @"test";
     [self.view addSubview:lable1];
+    
+    
+    UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 40, 50)];
+    [self.view addSubview:label2];
 }
 
 
